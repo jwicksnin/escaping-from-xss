@@ -4,7 +4,7 @@ function escapeHTML (unsafe_str) {
 	      .replace(/</g, '&lt;')
 	      .replace(/>/g, '&gt;')
 	      .replace(/\"/g, '&quot;')
-	      .replace(///g, '&#x2F;')
+	      .replace('/', '&#x2F;')
 	      .replace(/\'/g, '&#x27;'); //
 }
 
